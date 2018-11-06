@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		937C7F432190C49900B3F47F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937C7F422190C49900B3F47F /* MyCollectionViewCell.swift */; };
+		937C7F462190C7E400B3F47F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937C7F452190C7E400B3F47F /* MainView.swift */; };
 		93A0E4BA218F2BDC00E91FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E4B9218F2BDC00E91FB4 /* AppDelegate.swift */; };
 		93A0E4BC218F2BDC00E91FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0E4BB218F2BDC00E91FB4 /* ViewController.swift */; };
 		93A0E4BF218F2BDC00E91FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A0E4BD218F2BDC00E91FB4 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		937C7F422190C49900B3F47F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		937C7F452190C7E400B3F47F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ViewControllers/MainView.swift; sourceTree = "<group>"; };
 		93A0E4B6218F2BDC00E91FB4 /* CocktailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A0E4B9218F2BDC00E91FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A0E4BB218F2BDC00E91FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,8 +81,10 @@
 		93A0E4B8218F2BDC00E91FB4 /* CocktailApp */ = {
 			isa = PBXGroup;
 			children = (
-				93A0E4B9218F2BDC00E91FB4 /* AppDelegate.swift */,
 				93A0E4BB218F2BDC00E91FB4 /* ViewController.swift */,
+				937C7F422190C49900B3F47F /* MyCollectionViewCell.swift */,
+				937C7F452190C7E400B3F47F /* MainView.swift */,
+				93A0E4B9218F2BDC00E91FB4 /* AppDelegate.swift */,
 				93A0E4BD218F2BDC00E91FB4 /* Main.storyboard */,
 				93A0E4C0218F2BDE00E91FB4 /* Assets.xcassets */,
 				93A0E4C2218F2BDE00E91FB4 /* LaunchScreen.storyboard */,
@@ -198,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A0E4BC218F2BDC00E91FB4 /* ViewController.swift in Sources */,
+				937C7F462190C7E400B3F47F /* MainView.swift in Sources */,
 				93A0E4BA218F2BDC00E91FB4 /* AppDelegate.swift in Sources */,
+				937C7F432190C49900B3F47F /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3M28WQR56;
 				INFOPLIST_FILE = CocktailApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3M28WQR56;
 				INFOPLIST_FILE = CocktailApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
